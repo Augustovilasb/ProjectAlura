@@ -1,0 +1,158 @@
+:root {
+    --mainlywhite: #FFFFFF;
+    --secondarygray: #C0C0C0;
+    --bluebutton: #167BF7;
+    --backgroundcolor: #00030C;
+    --fonte-principal: 'Inter';
+}
+
+body {
+    background-color: var(--backgroundcolor);
+    color: var(--mainlywhite);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainly {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container_button {
+    background-color: var(--bluebutton);
+    padding: 0.7em;
+    border-radius: 7px;
+    color: var(--mainlywhite);
+    display: block;
+    text-decoration: none;
+    margin: 1em;
+}
+
+.container_second_button {
+    background-color: transparent;
+    border: 2px solid var(--mainlywhite);
+    padding: 0.7em;
+    border-radius: 7px;
+    color: var(--mainlywhite);
+    display:block;
+    text-decoration: none;
+    margin: 1em;
+}
+
+.container_aviso {
+    font-size: 12px;
+    color: var(--secondarygray);
+}
+
+.container_title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container_imagem {
+    margin: 3em 0 2em 0;
+}
+
+.container_caixa {
+    margin: 0 6em;
+}
+
+.secundario_imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 12em;
+}
+
+.descricao_titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--mainlywhite);
+    margin-bottom: 0.1em;
+}
+
+.descricao_texto {
+    color: var(--secondarygray);
+}
+
+.secundario_botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container_descricao {
+    padding: 2em;
+}
+
+.dispositivos_lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos_titulo {
+    font-size: 48px;
+    color: var(--mainlywhite);
+}
+
+.lista_item {
+    font-size: 32px;
+}
+
+.rodape_texto {
+    text-align: center;
+    color: var(--secondarygray);
+    font-size: 14px;
+    margin: 2em 0;
+}
+
+.lista_link a {
+    color: var(--mainlywhite);
+    margin-left: 3em;
+    text-decoration: none;
+}
+
+.rodape_lista {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.rodape {
+    align-items: center;
+    margin: 0 3em;
+}
+
+.rodape_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 860px;
+    margin-bottom: 30px;
+}
+
+
+
+
